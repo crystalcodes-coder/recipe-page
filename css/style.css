@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:  hsl(31, 52.90%, 90.00%);
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 740px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 05);
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto; 
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+    color: hsl(14, 45%, 36%);
+}
+
+h3.prep-head {
+    font-size: 1.25rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.25rem;
+    border-radius: 10px;
+}
+
+.prep-list {
+    padding-left: 1.5rem;
+}
+
+.prep-list li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.prep-list li::marker{
+    color: hsl(332, 51%, 32%);
+    padding-left: 1.5rem;
+}
+
+.prep-list li strong {
+    font-weight: 600;
+    color: #333;
+}
+
+.ingredients ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ingredients ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.ingredients ul li::marker {
+   color: hsl(14, 45%, 36%);
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid  hsl(30, 18%, 87%);
+    margin: 2rem 0;
+}
+
+.instructions ol {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+.instructions ol li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.instructions ol li strong {
+     font-weight: 600;
+     color: #333;
+}
+
+.instructions ol   li::marker { 
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+ }
+
+ .nutrition p {
+    margin-bottom: 1rem;
+ }
+
+ .nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+ .nutrition td {
+    padding: 1rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+ }
+
+.nutrition tr.no-border td {
+    border-bottom: none;
+
+}
+
+.nutrition td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
