@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Young+Serif&display=swap');
 
+/* Responsive Design for desktop devices */
+
 * {
     padding: 0;
     margin: 0;
@@ -17,16 +19,17 @@ body {
 }
 
 .container {
-    max-width: 740px;
+    max-width: 1042px;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.5);
 }
 
 .recipe-image {
     width: 100%;
+    display: block;
     height: auto; 
     margin-bottom: 1.5rem;
     border-radius: 10px;
@@ -153,6 +156,45 @@ h3.prep-head {
     font-weight: bold;
 }
 
+/* Responsive Design for mobile devices */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .container {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .recipe-image {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 1.5rem 0 1rem;
+  }
+
+  .prep-time {
+    padding: 1rem;
+  }
+
+  .nutrition td {
+    padding: 0.5rem;
+  }
+}
 
 
 
@@ -161,11 +203,3 @@ h3.prep-head {
 
 
 
-
-
-
-
-
-git init
-
-git add .
